@@ -153,3 +153,13 @@ These are similar libraries that provide a similar service to AJAX
 - Node HTTP
 
 -->
+
+3. XHR Object Methods & Working with Text
+
+<!--
+
+See app.js for xhr object properties/methods and extracting a text file.
+
+-->
+
+
