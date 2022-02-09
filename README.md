@@ -70,3 +70,86 @@ Handling Async Code
 - Async/Await - can be structured in a way that looks like Sync code.
 
 -->
+
+2. What is AJAX ?
+
+<!--
+
+AJAX
+
+- Stands for Asynchronous Javascript & XML.
+
+- Set of web technologies
+
+- Sends and receives data from the browser and server.
+
+- Done behind the scenes so you don't have to reload the browser.
+
+- XML has been replaced by JSON. Most APIs now return JSON data instead of XML.
+
+-->
+
+Pathway (Diagram Lecture 58. 1:05)
+
+<!--
+
+Pathway without AJAX
+
+- Browser sends request > Server sends response
+
+- Usually you'd click a link which would send a request to the server and we would get a
+response back which includes the WHOLE web page (headers, data etc), which will reload
+the page.
+
+AJAX Pathway
+
+- Browser sends JS Call > AJAX Engine sends XmlHttpRequest > Server sends XML/JSON data back
+
+to AJAX > AJAX Engine sends HTML Response to browser.
+
+- Therefore AJAX allows us to make requests asynchronously.
+
+- This happens in the background, removing the need for a browser to reload or refresh.
+
+- For example updating a section of text can be done with AJAX which is much faster and removes
+the need to reload the web page.
+
+- This makes the browser more interactive too.
+
+-->
+
+XML Http Request or XHR Object
+
+<!--
+
+- Core technology in AJAX.
+
+- An API in the form of an object.
+
+- Provided by the browsers JS environment. (All browsers have this API.)
+
+- Methods transfer data between browser and server.
+
+So this is what AJAX uses to send data to the server to return a JSON format, which can
+be converted into a HTML response in the browser.
+
+-->
+
+Libraries & Other Methods
+
+<!--
+
+These are similar libraries that provide a similar service to AJAX
+
+- Fetch API (Part of Vanilla JS & browser, newer than AJAX)
+    - Will be covering Fetch later
+
+- Axios
+
+- Superagent
+
+- jQuery
+
+- Node HTTP
+
+-->
