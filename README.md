@@ -162,4 +162,33 @@ See app.js for xhr object properties/methods and extracting a text file.
 
 -->
 
+4. Working With AJAX & JSON
 
+<!-- The first part of this lesson is similar to 'app.js' because I am outputting
+a single object.
+-->
+
+Implementing numerous JSON Objects
+
+<!--
+
+(Lecture 60. 10:00 Start)
+
+- The difference in getPokemons() is that we are using a forEach loop to loop through
+our array.
+
+- We are also using the let keyword in order to assign multiple objects to the output
+variable.
+
+- I was a little bit confused about the singular 'pokemon' parameter, but because we
+are looping through the pokemons variable, we can assign anything within the parentheses.
+
+I.e. pokemons.forEach(function(yolo){
+    yolo.id
+    yolo.name
+    yolo.type
+});
+
+- The '+=' means we are appending.
+
+ -->
