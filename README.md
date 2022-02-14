@@ -196,4 +196,8 @@ I.e. pokemons.forEach(function(yolo){
 5. Data From An External API - Chuck Norris Jokes
 
 <!-- This is workspace is getting a bit clogged, so will create a different repo for this
-section. -->
+section.
+
+The repo is called 'chucknorris_jokes'.
+
+Completed the application independently. -->
