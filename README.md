@@ -192,3 +192,8 @@ I.e. pokemons.forEach(function(yolo){
 - The '+=' means we are appending.
 
  -->
+
+5. Data From An External API - Chuck Norris Jokes
+
+<!-- This is workspace is getting a bit clogged, so will create a different repo for this
+section. -->
