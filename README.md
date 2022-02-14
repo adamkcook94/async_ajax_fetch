@@ -201,3 +201,96 @@ section.
 The repo is called 'chucknorris_jokes'.
 
 Completed the application independently. -->
+
+6. REST APIs & HTTP Requests
+
+What Is An API?
+
+<!--
+
+- Application Programming Interface
+
+- All kinds of APIs, we-re dealing with web APIs but there are APIs in your PC, smartphone,
+fridges, etc.
+
+- Essentially a contract provided from one software to another.
+
+- Consists of a structured request and response. One software requests data/function and the API
+sends it back.
+
+- The Chuck Norris Joke Generator was an example of this. We requested jokes and received them back
+in the form of JSON.
+
+-->
+
+REST APIs
+
+<!--
+
+- Representational State Transfer
+
+- Architectural style for designing networked applications.
+
+- Relies on a stateless, client-server communication protocol almost always in the form of HTTP.
+
+- REST was made to treat objects on the server side as resources that can be created, updated, read
+or destroyed.
+
+I.E. A blog post, a user etc. Usually stored in a database.
+
+- Can create these resources with a 'POST' request.
+
+- Can delete with 'DELETE' request.
+
+- Since it uses HTTP requests and standard JSON it can be used with any programming language.
+
+- APIs are the messenger, whilst REST lets us use HTTP requests to format that message.
+
+- REST APIs take in multiple forms of HTTP requests such as 'GET', 'POST', 'DELETE, etc.
+
+-->
+
+HTTP Requests
+
+<!--
+
+- GET: Retrieve data from a specfied source.
+
+- POST: Submit data to be processed to a specified resource.
+
+- PUT: Update a specified resource.
+
+- DELETE: Delete a specified resource.
+
+- HEAD: Same as get but doesn't return a body, just returns the header.
+
+- OPTIONS: Returns supported HTTP methods of that specific server or API.
+
+- PATCH: Updates partial resources.
+
+-->
+
+API Endpoints
+
+<!--
+
+- With an API, you are going to have endpoints, which are URLs which allow you to do certain things.
+
+I.E:
+
+GET https://someurl.com/api/users (Get all users)
+
+GET https://someurl.com/api/users/1 (Get specific user)
+
+POST https://someurl.com/api/users (Add user)
+
+PUT https://someurl.com/api/users/1 (Update user)
+
+DELETE https://someurl.com/api/users/1 (Delete user)
+
+These examples are all similar which is okay because the request methods are different (GET/POST/PUT/DELETE).
+
+- With POST, PUT & DELETE you will need to send data along with the request because it needs to know the
+data to add/update/delete and the data it needs to do these things.
+
+-->
