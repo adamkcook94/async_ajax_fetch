@@ -229,7 +229,7 @@ REST APIs
 
 - Representational State Transfer
 
-- Architectural style for designing networked applications.
+- A set of architectural constraints for designing applications.
 
 - Relies on a stateless, client-server communication protocol almost always in the form of HTTP.
 
@@ -241,6 +241,12 @@ I.E. A blog post, a user etc. Usually stored in a database.
 - Can create these resources with a 'POST' request.
 
 - Can delete with 'DELETE' request.
+
+- When a client request is made via a RESTful API, it transfers a state of the resource to the
+requester or endpoint.
+
+- This information, or representation, is delivered in one of several formats via HTTP: JSON (Javascript Object Notation),
+HTML, XLT, Python, PHP, or plain text.
 
 - Since it uses HTTP requests and standard JSON it can be used with any programming language.
 
@@ -294,3 +300,4 @@ These examples are all similar which is okay because the request methods are dif
 data to add/update/delete and the data it needs to do these things.
 
 -->
+
