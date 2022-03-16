@@ -301,3 +301,10 @@ data to add/update/delete and the data it needs to do these things.
 
 -->
 
+7. Callback Functions
+
+<!-- Callback Functions are functions within a function's parameter, allowing us to asynchronously code.
+
+E.g. (watch Callback Functions again for example.)
+
+ -->
