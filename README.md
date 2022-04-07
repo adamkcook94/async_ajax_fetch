@@ -17,6 +17,8 @@ posts = loadPosts();
 
 doTheNextThing();
     ... this can only be carried out once loadPosts has completed fetching posts.
+
+This obviously slows things down.
 -->
 
 Async Code
@@ -82,6 +84,8 @@ AJAX
 - Set of web technologies
 
 - Sends and receives data from the browser and server.
+
+- Sends & receives data asynchronously.
 
 - Done behind the scenes so you don't have to reload the browser.
 
