@@ -8,7 +8,9 @@ function getPokemon() {
 
     xhr.onload = function() {
         if(this.status === 200) {
-            const pokemon = JSON.parse(this.responseText);
+            const pokemon = JSON.parse(this.responseText); 
+            // We won't be able to get things like 'pokemon.id' without using JSON.parse. 
+            // So it's taking the JSON string and allowing us to convert it to a HTML response.
             const output = 
             ` <ul>
                 <li>${pokemon.id}</li>
@@ -33,7 +35,7 @@ function getPokemons() {
         if(this.status === 200) {
             const pokemons = JSON.parse(this.responseText);
 
-            let output = ''; // Lets us reassign output.
+            let output = ''; // Lets us reassign output.*
 
             pokemons.forEach(function(pokemons){ // Allows us to loop through the array
                 output += ` 
@@ -49,3 +51,7 @@ function getPokemons() {
     }
     xhr.send();
 }
+
+// += means append.
+// * remember that let allows variables to be reassigned so you used let for things like loops
+// ForEach: 
